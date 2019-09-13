@@ -50,7 +50,7 @@ answerA <- sum(data$Product)
 print(paste(answerA*100, "%", sep=""))
 
 # (b) Apply the formula
-# Pr(X1 = 0;X2 = 2;X3 = 1) = delta * P(0) * GAMMA * P(2) * GAMMA * P(1)10 * 1'
+# Pr(X1 = 0;X2 = 2;X3 = 1) = delta * P(0) * GAMMA * P(2) * GAMMA * P(1) * 1'
 # P is diagonal matrix of dpois
 P <- function(x, l){
   # x is data vale, l is vector of lambdas
